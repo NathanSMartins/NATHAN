@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV NATHAN</title>
+    <style>
+        /* Estilos para o cabeçalho */
+        header {
+            background-color: #28a745;
+            color: white;
+            font-family: "Times New Roman", Times, serif;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        /* Navegação no cabeçalho */
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #d4edda;
+        }
+
+        /* Estilo para os títulos principais das seções */
+        section h2 {
+            background-color: #28a745;
+            color: white;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo para os subtítulos */
+        section h3 {
+            background-color: #28a745;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        /* Div que envolve subtítulos, imagens e textos */
+        .content-box {
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: rgba(46, 129, 46, 0.4);
+        }
+
+        /* Estilo para imagens */
+        section img {
+            display: block;
+            max-width: 15%;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo para vídeos */
+        .video {
+            display: block;
+            max-width: 55%;
+            max-height: 30%;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo para textos */
+        section p {
+            font-size: 20px;
+            padding: 20px;
+            margin: 0 auto;
+            color: rgb(53, 58, 52);
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #1e7e34;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #d4edda;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho com navegação -->
+    <header>
+        <nav>
+            <a href="index.HTML">Sobre Mim</a>
+            <a href="Formação.html">Formação</a>
+            <a href="Portifólio.html">Portfólio</a>
+            <a href="Contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <section id="content">
+        <h2>Portfólio</h2>
+
+        <!-- Div que contém subtítulo, imagem e texto descritivo -->
+        <div class="content-box">
+            <h3>Protótipo de Guia para jogadores de Arena of Valor</h3>
+
+            <!-- Imagem representativa do projeto -->
+            <img src="IMAGEM/arena of valor logo.png" alt="Logo do Site" />
+
+            <!-- Descrição do projeto -->
+            <p>Ao final do meu curso de web, desenvolvi um site para os jogadores de Arena Of Valor, um jogo MOBA de celular precursor do Honor of Kings. Na época, eu era bastante ativo na comunidade desse jogo, e a ideia de criar meu próprio site sobre um jogo tão querido me animava muito.</p>
+
+            <!-- Vídeo da página inicial do site -->
+            <video autoplay muted loop class="video">
+                <source src="IMAGEM/home.mp4" type="video/mp4">
+            </video>
+            <p>O site apresenta uma série de vídeos em todas as janelas, cada um com o intuito de passar uma ideia do conteúdo, juntamente com o título.</p>
+
+            <!-- Vídeo da seção de Tier Lists -->
+            <video autoplay muted loop class="video">
+                <source src="IMAGEM/tier.mp4" type="video/mp4">
+            </video>
+            <p>O site conta com atualizações sobre o balanceamento do jogo, bem como guias de builds e itens.</p>
+
+            <!-- Vídeo da seção de notícias -->
+            <video autoplay muted loop class="video">
+                <source src="IMAGEM/news.mp4" type="video/mp4">
+            </video>
+            <p>Além disso, o site traz atualizações constantes sobre o cenário competitivo do jogo, com notícias sobre torneios.</p>
+
+            <!-- Vídeo da seção de Patch Notes -->
+            <video autoplay muted loop class="video">
+                <source src="IMAGEM/patch.mp4" type="video/mp4">
+            </video>
+            <p>O site também oferece informações e curiosidades sobre o patch atual do jogo.</p>
+
+            <!-- Texto e botão de download -->
+            <p>Gostaria de conhecer o projeto completo? Acesse a pagina pelo link abaixo</p>
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="https://nathansmartins.github.io/AOV/" style="background-color: #28a745; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 18px;">ACESSE O SITE</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Nathan Martins. Todos os direitos reservados.</p>
+        <p>
+            <a href="index.HTML">Sobre Mim</a> |
+            <a href="Formação.html">Formação</a> |
+            <a href="Portifólio.html">Portfólio</a> |
+            <a href="https://www.linkedin.com/in/nathan-martins-6745351b3" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
+</body>
+
+</html>

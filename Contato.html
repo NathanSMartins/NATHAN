@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV NATHAN</title>
+    <style>
+        /* Reseta margens e preenchimentos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Corpo da página */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Cabeçalho */
+        header {
+            margin-top: 7px;
+            background-color: #28a745;
+            color: white;
+            font-family: "Times New Roman", Times, serif;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #d4edda;
+        }
+
+        /* Conteúdo principal */
+        section {
+            flex: 1; /* Faz o conteúdo principal ocupar todo o espaço disponível */
+            margin: 20px;
+        }
+
+        .content-box {
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: rgba(46, 129, 46, 0.4);
+        }
+
+        section h2 {
+            background-color: #28a745;
+            color: white;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        section p {
+            font-size: 20px;
+            padding: 20px;
+            margin: 0 auto;
+            color: rgb(53, 58, 52);
+        }
+
+        section h3 {
+            background-color: #28a745;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #1e7e34;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #d4edda;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.HTML">Sobre Mim</a>
+            <a href="Formação.html">Formação</a>
+            <a href="Portifólio.html">Portfólio</a>
+            <a href="Contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <section id="content">
+        <h2>Contato</h2>
+        <div class="content-box">
+            <p>Foi um prazer ter você em meu site pessoal. Caso tenha interesse em me contatar, envie um email para:</p>
+            <h3>nathanmartins.jm@gmail.com</h3>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Nathan Martins. Todos os direitos reservados.</p>
+        <p>
+            <a href="index.HTML">Sobre Mim</a> | 
+        <a href="Formação.html">Formação</a> | 
+        <a href="Portifólio.html">Portfólio</a> |
+            <a href="https://www.linkedin.com/in/nathan-martins-6745351b3
+        " target="_blank">LinkedIn</a>
+        </p>
+    </footer>
+</body>
+
+</html>
